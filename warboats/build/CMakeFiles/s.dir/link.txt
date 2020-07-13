@@ -1,1 +1,0 @@
-/bin/c++  -g   CMakeFiles/s.dir/tests.cpp.o CMakeFiles/s.dir/Ocean.cpp.o CMakeFiles/s.dir/PRNG.cpp.o  -o s 

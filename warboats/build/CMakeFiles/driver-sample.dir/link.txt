@@ -1,1 +1,0 @@
-/bin/c++  -g   CMakeFiles/driver-sample.dir/driver-sample.cpp.o CMakeFiles/driver-sample.dir/Ocean.cpp.o CMakeFiles/driver-sample.dir/PRNG.cpp.o  -o driver-sample 

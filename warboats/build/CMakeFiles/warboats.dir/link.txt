@@ -1,1 +1,0 @@
-/bin/c++  -g   CMakeFiles/warboats.dir/main.cpp.o CMakeFiles/warboats.dir/Ocean.cpp.o CMakeFiles/warboats.dir/PRNG.cpp.o  -o warboats 
