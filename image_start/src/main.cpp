@@ -20,5 +20,5 @@ struct Header {
     char imageDescriptor;
 }; // 18 bytes total
 
-int main() {
+int main(int argc, char* argv[]) {
 }
