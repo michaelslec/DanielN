@@ -1,3 +1,9 @@
+# Custom
+build/
+cmake_build_debug
+
+tags
+
 # Prerequisites
 *.d
 
