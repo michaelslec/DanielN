@@ -1,0 +1,6 @@
+/home/michael/Documents/Tutoring/DanielN/warboats/build/CMakeFiles/edit_cache.dir
+/home/michael/Documents/Tutoring/DanielN/warboats/build/CMakeFiles/warboats.dir
+/home/michael/Documents/Tutoring/DanielN/warboats/build/CMakeFiles/rebuild_cache.dir
+/home/michael/Documents/Tutoring/DanielN/warboats/build/CMakeFiles/driver-big.dir
+/home/michael/Documents/Tutoring/DanielN/warboats/build/CMakeFiles/driver-sample.dir
+/home/michael/Documents/Tutoring/DanielN/warboats/build/CMakeFiles/tests.dir

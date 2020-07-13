@@ -1,0 +1,1 @@
+/bin/c++  -g   CMakeFiles/-big.dir/driver-big.cpp.o CMakeFiles/-big.dir/Ocean.cpp.o CMakeFiles/-big.dir/PRNG.cpp.o  -o -big 

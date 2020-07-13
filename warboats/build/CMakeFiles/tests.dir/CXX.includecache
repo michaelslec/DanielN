@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michael/Documents/Tutoring/DanielN/warboats/Ocean.cpp
+WarBoats.h
+/home/michael/Documents/Tutoring/DanielN/warboats/WarBoats.h
+Ocean.h
+/home/michael/Documents/Tutoring/DanielN/warboats/Ocean.h
+iostream
+-
+iomanip
+-
+
+/home/michael/Documents/Tutoring/DanielN/warboats/Ocean.h
+WarBoats.h
+/home/michael/Documents/Tutoring/DanielN/warboats/WarBoats.h
+
+/home/michael/Documents/Tutoring/DanielN/warboats/WarBoats.h
+

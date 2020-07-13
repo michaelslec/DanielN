@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michael/Documents/Tutoring/DanielN/warboats/PRNG.h
+
+/home/michael/Documents/Tutoring/DanielN/warboats/WarBoats.h
+
+/home/michael/Documents/Tutoring/DanielN/warboats/driver-big.cpp
+iostream
+-
+iomanip
+-
+WarBoats.h
+/home/michael/Documents/Tutoring/DanielN/warboats/WarBoats.h
+PRNG.h
+/home/michael/Documents/Tutoring/DanielN/warboats/PRNG.h
+
