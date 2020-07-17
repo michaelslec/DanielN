@@ -27,6 +27,8 @@ struct Pixel
   uint8_t blue;
 };
 
+Pixel multiplyAlgorithm(const Pixel& fg, const Pixel& bg);
+
 int main() {
   ifstream layer_file("input/layer1.tga", ios::binary | ios::in);
   ifstream pattern_file("input/pattern1.tga", ios::binary | ios::in);
@@ -36,7 +38,7 @@ int main() {
     cerr << "Could not open file layer1.tga" << endl;
 
   if (!pattern_file)
-    cerr << "Could not open file layer1.tga" << endl;
+    cerr << "Could not open file pattern1.tga" << endl;
 
   // if the file could not be opened
   if(!outFile)
@@ -57,6 +59,8 @@ int main() {
   layer_file.read(&tgaHeader.bitsPerPixel, sizeof(tgaHeader.bitsPerPixel));
   layer_file.read(&tgaHeader.imageDescriptor, sizeof(tgaHeader.imageDescriptor));
 
+  pattern_file.seekg(18);
+
   outFile.write(&tgaHeader.idLength, sizeof(tgaHeader.idLength));
   outFile.write(&tgaHeader.colorMapType, sizeof(tgaHeader.colorMapType));
   outFile.write(&tgaHeader.dataTypeCode, sizeof(tgaHeader.dataTypeCode));
@@ -73,11 +77,18 @@ int main() {
 
   for (unsigned long i = 0; i < tgaHeader.width * tgaHeader.height; i++)
   {
-    Pixel new_pixel;
+    Pixel fg_pixel, bg_pixel;
 
-    layer_file.read((char*)&new_pixel.red, sizeof(new_pixel.red));
-    layer_file.read((char*)&new_pixel.green, sizeof(new_pixel.green));
-    layer_file.read((char*)&new_pixel.blue, sizeof(new_pixel.blue));
+    layer_file.read((char*)&fg_pixel.red, sizeof(fg_pixel.red));
+    layer_file.read((char*)&fg_pixel.green, sizeof(fg_pixel.green));
+    layer_file.read((char*)&fg_pixel.blue, sizeof(fg_pixel.blue));
+
+    pattern_file.read((char*)&bg_pixel.red, sizeof(bg_pixel.red));
+    pattern_file.read((char*)&bg_pixel.green, sizeof(bg_pixel.green));
+    pattern_file.read((char*)&bg_pixel.blue, sizeof(bg_pixel.blue));
+
+    Pixel new_pixel = multiplyAlgorithm(fg_pixel, bg_pixel);
+
 
     outFile.write((char*)&new_pixel.red, sizeof(new_pixel.red));
     outFile.write((char*)&new_pixel.green, sizeof(new_pixel.green));
@@ -87,4 +98,15 @@ int main() {
   layer_file.close(); // close file1
   pattern_file.close();
   outFile.close(); // close file2
+}
+
+Pixel multiplyAlgorithm(const Pixel& fg, const Pixel& bg)
+{
+  Pixel new_pixel;
+
+  new_pixel.red = (fg.red * bg.red) / 255.0f + 0.5f;
+  new_pixel.green = (fg.green * bg.green) / 255.0f + 0.5f;
+  new_pixel.blue = (fg.blue * bg.blue) / 255.0f + 0.5f;
+
+  return new_pixel;
 }
