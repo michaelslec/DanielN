@@ -55,21 +55,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.run_tests">
-    <configuration name="project2.out" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project2" TARGET_NAME="project2.out" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project2" RUN_TARGET_NAME="project2.out">
+  <component name="RunManager">
+    <configuration name="project2.out" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project2" TARGET_NAME="project2.out" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project2" RUN_TARGET_NAME="project2.out">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project2" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project2" RUN_TARGET_NAME="run_tests">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.project2.out" />
-      <item itemvalue="CMake Application.run_tests" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
