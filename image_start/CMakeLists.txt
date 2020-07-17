@@ -3,6 +3,5 @@ project(main)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(tests)
-
-add_executable(main src/main.cpp src/main.h)
+add_executable(main src/main.cpp)
+add_executable(run_tests tests/tests.cpp)
