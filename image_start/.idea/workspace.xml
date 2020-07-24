@@ -15,7 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d1d35aa-94eb-4939-9468-49dbaca87fb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TGA_File.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TGA_File.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TGA_File.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/TGA_File.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
@@ -41,6 +40,11 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="7fb0a75n" />
@@ -100,7 +104,8 @@
       <workItem from="1585789329795" duration="2000" />
       <workItem from="1585789353644" duration="832000" />
       <workItem from="1595613949006" duration="2038000" />
-      <workItem from="1595616013043" duration="1186000" />
+      <workItem from="1595616013043" duration="2654000" />
+      <workItem from="1595620867680" duration="2699000" />
     </task>
     <servers />
   </component>
@@ -116,22 +121,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="244" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1595022551897" />
-    <state width="1920" height="291" key="GridCell.Tab.0.bottom" timestamp="1595616361474">
+    <state width="1920" height="108" key="GridCell.Tab.0.bottom" timestamp="1595622737651">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595616361474" />
-    <state width="1920" height="291" key="GridCell.Tab.0.center" timestamp="1595616361474">
+    <state width="1920" height="108" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595622737651" />
+    <state width="1920" height="108" key="GridCell.Tab.0.center" timestamp="1595622737650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="291" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595616361474" />
-    <state width="1920" height="291" key="GridCell.Tab.0.left" timestamp="1595616361473">
+    <state width="1920" height="108" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595622737650" />
+    <state width="1920" height="108" key="GridCell.Tab.0.left" timestamp="1595622737650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="291" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595616361473" />
-    <state width="1920" height="291" key="GridCell.Tab.0.right" timestamp="1595616361474">
+    <state width="1920" height="108" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595622737650" />
+    <state width="1920" height="108" key="GridCell.Tab.0.right" timestamp="1595622737650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1920" height="291" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595616361474" />
+    <state width="1920" height="108" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595622737650" />
     <state width="1921" height="383" key="GridCell.Tab.1.bottom" timestamp="1595025438970">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -152,6 +157,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="454" y="145" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1595617200265" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1595617369498">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595617369498" />
+    <state x="832" y="393" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1595621843105">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="832" y="393" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595621843105" />
     <state x="737" y="293" width="436" height="421" key="refactoring.ChangeSignatureDialog" timestamp="1595614996492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -160,9 +173,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="622" y="244" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595616864154" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1595026022630">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1595622415070">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595026022630" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595622415070" />
   </component>
 </project>

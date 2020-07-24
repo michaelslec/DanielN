@@ -31,17 +31,20 @@ struct Pixel
 class TGA
 {
 public:
-  TGA(const std::string &in1, const std::string &in2, const std::string &out);
+  TGA(const std::string &in1, const std::string &in2);
   ~TGA() {
     input1_.close();
     input2_.close();
-    output_.close();
+    output_temp_.close();
+    remove(output_temp_filename_.c_str());
   };
 
   void applyMultiplyBlending();
+  void applySubtractionBlending();
+  void save(const std::string& out_file_name);
 
 private:
-  void open_files(const std::string &fg, const std::string &bg, const std::string out_file);
+  void open_files(const std::string &fg, const std::string &bg);
   void read_write_headerInfo();
   void applyBlending(std::function<Pixel(const Pixel&, const Pixel&)> algorithm);
 
@@ -50,9 +53,10 @@ private:
 
 private:
   Header header1_; //!< header information of the file
+  const std::string output_temp_filename_ = "output/__temp.tga";
 
   std::ifstream input1_;
   std::ifstream input2_;
-  std::ofstream output_;
+  std::ofstream output_temp_;
 };
 } // namespace tga_prog
