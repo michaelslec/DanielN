@@ -4,6 +4,7 @@
     <generated>
       <config projectName="tga_transformation" targetName="run_tests" />
       <config projectName="tga_transformation" targetName="main" />
+      <config projectName="tga_transformation" targetName="testing" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,6 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d1d35aa-94eb-4939-9468-49dbaca87fb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.overridden" value="true" />
-    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -90,7 +92,6 @@
       <workItem from="1585759107202" duration="3681000" />
       <workItem from="1585789329795" duration="2000" />
       <workItem from="1585789353644" duration="832000" />
-      <workItem from="1595096026869" duration="35000" />
     </task>
     <servers />
   </component>
@@ -106,50 +107,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="244" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1595022551897" />
-    <state x="1050" y="363" key="FileChooserDialogImpl" timestamp="1595096059663">
+    <state width="1921" height="311" key="GridCell.Tab.0.bottom" timestamp="1595026367737">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1050" y="363" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1595096059663" />
-    <state width="1921" height="383" key="GridCell.Tab.0.bottom" timestamp="1595026743021">
+    <state width="1921" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595026367737" />
+    <state width="1921" height="311" key="GridCell.Tab.0.center" timestamp="1595026367736">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743021" />
-    <state width="1921" height="383" key="GridCell.Tab.0.center" timestamp="1595026743021">
+    <state width="1921" height="311" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595026367736" />
+    <state width="1921" height="311" key="GridCell.Tab.0.left" timestamp="1595026367736">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743021" />
-    <state width="1921" height="383" key="GridCell.Tab.0.left" timestamp="1595026743021">
+    <state width="1921" height="311" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595026367736" />
+    <state width="1921" height="311" key="GridCell.Tab.0.right" timestamp="1595026367737">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743021" />
-    <state width="1921" height="383" key="GridCell.Tab.0.right" timestamp="1595026743021">
+    <state width="1921" height="311" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595026367737" />
+    <state width="1921" height="383" key="GridCell.Tab.1.bottom" timestamp="1595025438970">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743021" />
-    <state width="1921" height="383" key="GridCell.Tab.1.bottom" timestamp="1595026743022">
+    <state width="1921" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595025438970" />
+    <state width="1921" height="383" key="GridCell.Tab.1.center" timestamp="1595025438969">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743022" />
-    <state width="1921" height="383" key="GridCell.Tab.1.center" timestamp="1595026743021">
+    <state width="1921" height="383" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595025438969" />
+    <state width="1921" height="383" key="GridCell.Tab.1.left" timestamp="1595025438969">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743021" />
-    <state width="1921" height="383" key="GridCell.Tab.1.left" timestamp="1595026743021">
+    <state width="1921" height="383" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595025438969" />
+    <state width="1921" height="383" key="GridCell.Tab.1.right" timestamp="1595025438970">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="383" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743021" />
-    <state width="1921" height="383" key="GridCell.Tab.1.right" timestamp="1595026743022">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1921" height="383" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595026743022" />
-    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1595096061220">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/0.0.1920.1080@0.0.1920.1080" timestamp="1595096061220" />
-    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1595096061220">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.0.1920.1080@0.0.1920.1080" timestamp="1595096061220" />
+    <state width="1921" height="383" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595025438970" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1595026022630">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
