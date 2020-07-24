@@ -3,5 +3,5 @@ project(tga_transformation)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp src/TGA_File.cpp src/TGA_File.h)
 add_executable(run_tests tests/tests.cpp)
